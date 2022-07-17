@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakthi.com</title>
+    <style>
+        body{
+    background-color:black;
+}
+.title {
+    border:2px solid white;
+    text-align:center;
+    color: white;
+    margin-top:30px;
+    background-image: linear-gradient(grey,black);
+}
+.title :hover{
+    color:black;
+}
+.form{
+    border: 1ps solid white ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+    height:500px;
+    margin-top: 40px;
+    background-color:antiquewhite;
+
+}
+    </style>
+</head>
+<body>
+    <div class="title" >
+        <h2>welcome to our developer family..!</h2>
+    </div>
+    <form action="enroll" method="get">
+    <div class="form">
+        <br>
+        <h3>Profile Detail Update to enroll</h3>
+        <hr>
+        <br>
+        <tr>
+            <td>NAME :</td>
+            <td><input type="text" name="name"></td><br>
+            <br>
+            <td>USER ID :</td>
+            <td><input type="text" name="id"></td>
+            <br>
+            <br>
+            <td>PASSWORD :</td>
+            <td><input type="password" name="password"></td><br>
+            <br>
+            <td>MOBILE NO :</td>
+            <td><input type="number" name="mbl"></td><br>
+            <br>
+            <td>E-MAIL :</td>
+            <td><input type="email" placeholder="@gmail.com" name="gmail"></td><br>
+            <br>
+            <td><label for="course">COURSE</label></td>
+            <td><select name="course" id="course">
+                <option value="java">JAVA</option>
+                <option value="python">PYTHON</option>
+                <option value="datastructure">DATA STRUCTURE</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="servlet">SERVLET</option>
+            </select></td><br>
+            <br>
+           <td><label for="payment">PAYMENT :</label> </td>
+            <td><select id="payment" name="payment">
+                <option value="paytm">PAYTM</option>
+                <option value="gpay">GPAY</option>
+                <option value="phonepe">PHONEPE</option>
+                <option value="banktranse">BANK</option>
+                <option value="free">FREE</option>
+            </select></td><br>
+            <br>
+            <td>ATTENDING DATE :</td>
+            <td><input type="date" name="date"></td>
+            <br>
+            <br>
+            <br>
+            <td><input  style="size:10px;" type="submit" value="SUBMIT"></td><br>
+        </tr>
+    </div>
+    </form>
+</body>
+</html>

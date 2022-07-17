@@ -1,0 +1,137 @@
+body{
+    background-color: black;
+    color:white;
+}
+.title{
+  
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    background-image: linear-gradient(red,yellow);
+}
+.homepage img{
+    margin-left: 5px;
+    width: 30%;
+    height: 300px;
+    float: right;
+}
+.homepage p{
+    margin-top: 2%;;
+    font-size: 20px;
+    margin-left: 2%;
+}
+.homepage span{
+
+    font-size: 20px;
+    margin-left: 2px;
+}
+.head{
+    color: skyblue;
+}
+.menu{
+    text-align: center;
+}
+.my img{
+    width: 200px;
+    margin-left: 5px;
+    height: 250px;
+    text-align: left;
+    float: left;
+}
+.view{
+    border:2px solid white;
+    width: 100vh;
+    height: 100vh;
+    margin-right: 30px;
+    background-color: rgb(68, 59, 59);
+    float: right;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: chartreuse;
+    font-size: larger;
+}
+.view video{
+    margin-left: 30px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.my p{
+    margin-top: 5%;
+    margin-left: 250px;
+    font-size: 20px;
+}
+.my li{
+    
+    margin-left: 250px;
+}
+.reg{
+    text-align: center;
+}
+.reg img{
+    float: left;
+    width: 45%;
+    height:300px;
+    margin-left: 5px;
+}
+.borderpage{
+    margin-left: 350px;;
+    text-align: center;
+    margin-left: 50%;
+    border: 1px solid black;
+    background-image: linear-gradient(blue,black,black,blue);
+    width: 50%;
+    height:300px;
+    font-size: large;
+    
+}
+.borderpage input{
+    font-size: 20px;
+    margin-left: 0%; 
+}
+
+.cont1{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 450px;
+    text-align: center;
+    height: 350px;
+    color: black;
+}
+.cont2{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 450px;
+    text-align: center;
+    height: 350px;
+    color: black;
+}
+.desc{
+    border: 1px solid black ;
+    border-style: unset;
+    background-image: linear-gradient(black,rgb(34, 11, 79));
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.desc img{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.desc hr{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.desc a{
+    color: white;
+}
+
